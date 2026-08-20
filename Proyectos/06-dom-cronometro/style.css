@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+   
+  min-height: 83vh;
+  background: linear-gradient(125deg, rgb(239, 47, 149), rgb(199, 228, 7), rgb(82, 224, 26), rgb(5, 231, 137), rgb(7, 132, 194), rgb(227, 92, 193) );
+ 
+}
+
+.stopwatch {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1)),
+                      url(images/background.png);
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin: 110px auto 0;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+.stopwatch h1 {
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch img {
+    width: 60px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.stopwatch img:nth-child(2) {
+    width: 90px;
+}
